@@ -1,0 +1,1 @@
+import{_ as e,o as _,n as t,a as n,F as s}from"./vendor-2fa3486a.js";const o={class:"sl-layout-content"},a={__name:"index",setup(c){return _(()=>{t(()=>{})}),(d,p)=>(n(),s("div",o))}},i=e(a,[["__scopeId","data-v-518f91d4"]]);export{i as default};

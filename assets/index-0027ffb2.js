@@ -1,0 +1,11 @@
+import k from"./index-782834fa.js";import{_ as T,g as z,aR as E,r as l,a as N,F,d as e,w as t,a8 as g,h as P,B as _,aV as U,az as j,aN as R,ar as A,au as D,aA as H,aI as J,H as L,J as O}from"./vendor-2fa3486a.js";import Y from"./index-274138eb.js";const q=p=>(L("data-v-43ca64c5"),p=p(),O(),p),G={class:"sl-layout-content"},K=q(()=>_("p",null,"VScode 代码片段配置",-1)),M={class:"split-pane"},Q={class:"text-area"},W={class:"split-pane"},X={__name:"index",setup(p){const{proxy:h}=z(),{$pub:V}=h,I=E("reload"),S=l({style:{height:"100%",width:"100%",border:"1px solid #E5E6EB"}}),u=l(""),d=l(""),m=l(""),f=l("");async function v(){f.value=b(m.value,d.value,u.value)}function b(c,o,a){const n=c.replace(/\\/g,"\\\\").replace(/"/g,'\\"').split(`
+`),r=n.length,x=n.map((i,y)=>y===r-1?`"${i}"`:`"${i}",`);return U`
+                "${a}":{ 
+                  "description": "${a}",
+                  "prefix": "${o}",
+                  "body": [ 
+                    ${x.join(`
+`)} 
+                  ] 
+                }
+            `}function w(){I()}function C(){const c=V.slBrowserCopyToClipboard;c(f.value)}return(c,o)=>{const a=j,n=R,r=A,x=D,i=H,y=Y,B=J,$=k;return N(),F("div",G,[e($,null,{title:t(()=>[K]),extra:t(()=>[e(a,{type:"primary",onClick:w},{default:t(()=>[g("重置")]),_:1}),e(a,{class:"sl-margin-left-10",type:"primary",status:"success",onClick:C},{default:t(()=>[g("复制")]),_:1})]),default:t(()=>[e(B,{style:P(S.value.style),size:"400px"},{first:t(()=>[_("div",M,[e(x,{class:"form_"},{default:t(()=>[e(r,{label:"描述"},{default:t(()=>[e(n,{modelValue:u.value,"onUpdate:modelValue":o[0]||(o[0]=s=>u.value=s),placeholder:"Description...",onInput:v},null,8,["modelValue"])]),_:1}),e(r,{label:"快捷键"},{default:t(()=>[e(n,{modelValue:d.value,"onUpdate:modelValue":o[1]||(o[1]=s=>d.value=s),placeholder:"Tab trigger...",onInput:v},null,8,["modelValue"])]),_:1})]),_:1}),_("div",Q,[e(i,{modelValue:m.value,"onUpdate:modelValue":o[2]||(o[2]=s=>m.value=s),placeholder:"Your snippet...","allow-clear":"","auto-size":{minRows:10},onInput:v},null,8,["modelValue"])])])]),second:t(()=>[_("div",W,[e(y,{lang:"html",code:f.value},null,8,["code"])])]),_:1},8,["style"])]),_:1})])}}},oe=T(X,[["__scopeId","data-v-43ca64c5"]]);export{oe as default};
